@@ -388,7 +388,8 @@ Inversion Of Control adı verilmektedir.
 
 ## Apache Kafka ve Rabbit MQ arasındaki farklar nelerdir ?
 ```
-
+Kullanım Senaryoları: Kafka, büyük veri akışlarını işlemek ve loglamak için tasarlanmışken; RabbitMQ, daha karmaşık yönlendirme ve mesaj teslim garantileri gerektiren uygulamalar için uygun bir seçenektir.
+Veri Saklama: Kafka, disk üzerinde veri saklama ve mesajların daha uzun süre tutulmasına odaklanır; RabbitMQ ise daha çok anlık ve hafif iletişim senaryoları için kullanılır.
 ```
 
 ## Saga Pattern nedir ?
