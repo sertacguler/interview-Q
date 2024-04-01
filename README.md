@@ -394,7 +394,7 @@ Veri Saklama: Kafka, disk üzerinde veri saklama ve mesajların daha uzun süre 
 
 ## Saga Pattern nedir ?
 ```
-
+Saga, bir dizi yerel işlemi (veya adımı) içerir. Her bir adım, bir sonraki adımın başlamasını tetikler. Her adım başarıyla tamamlandığında, saga ilerler ve bir sonraki işlemi tetikler. Bir adımda hata meydana gelirse, saga önceden başarıyla tamamlanan işlemleri geri almak için kompensasyon işlemleri (compensating transactions) gerçekleştirir. Bu, sistemin tutarlı bir durumda kalmasını sağlar.
 ```
 
 ## Domain Driven Design (DDD) ?
